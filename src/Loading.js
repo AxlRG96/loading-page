@@ -1,9 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
-import * as loading from "./PresentLogo";
-import * as done from "./done.json";
-
-import Container from "@material-ui/core/Container";
+import * as loading from "./PresentLogo"; // Coloca aqui la ruta de las anumaciones que quieras importar, la ruta al Json para que lo cargue y lo muestre.
 import Grid from "@material-ui/core/Grid";
 
 const defaultOptions = {
